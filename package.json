@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest",
+    "ts": "tsc",
+    "co4-js": "npm run jest ./connect4/js/game.spec.js -- --watchAll",
+    "co4-ts": "npm run jest ./connect4/ts/game.spec.ts -- --watchAll",
+    "gol-js": "npm run jest ./gameoflife/js/game.spec.js -- --watchAll",
+    "gol-ts": "npm run jest ./gameoflife/ts/game.spec.ts -- --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "26.0.24",
+    "jest": "27.0.6",
+    "ts-jest": "27.0.3",
+    "ts-node": "10.1.0",
+    "typescript": "4.3.5"
+  }
+}
