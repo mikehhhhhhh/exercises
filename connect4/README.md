@@ -23,3 +23,7 @@ A minimal version of the game should support:
 -   a 6 x 7 grid
 -   players play pieces sequentially
 -   the game identifies winning turns and ends at that point
+
+## Running tests
+- Javascript: `npm run co4-js` 
+- Typescript: `npm run co4-ts` 

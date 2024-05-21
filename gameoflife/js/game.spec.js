@@ -1,6 +1,6 @@
 const { createGrid, iterate, render } = require('./game');
 
-describe('connect 4', () => {
+describe('Game of Life', () => {
 
   it('should do something', () => {
     const grid = createGrid();

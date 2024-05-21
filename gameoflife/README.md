@@ -29,3 +29,7 @@ At each turn, the state of a cell may either be "alive" or "dead"; determined by
 
 There are many features which may exist in the game of life, an interesting class of them is the spaceship.
 Seed a grid with the [heavyweight spaceship](https://conwaylife.com/wiki/Heavyweight_spaceship) a [pattern file](https://www.conwaylife.com/patterns/hwss.cells) should be used. 
+
+## Running tests
+- Javascript: `npm run gol-js` 
+- Typescript: `npm run gol-ts` 
